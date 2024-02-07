@@ -1,0 +1,15 @@
+D:\Projects\Projects_Management\Projects_Management\Core\bin\Debug\net5.0\Core.deps.json
+D:\Projects\Projects_Management\Projects_Management\Core\bin\Debug\net5.0\Core.dll
+D:\Projects\Projects_Management\Projects_Management\Core\bin\Debug\net5.0\ref\Core.dll
+D:\Projects\Projects_Management\Projects_Management\Core\bin\Debug\net5.0\Core.pdb
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.dll
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\ref\Core.dll
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.pdb
+D:\Projects\Projects_Management\Projects_Management\Core\bin\Debug\net5.0\Utility.dll
+D:\Projects\Projects_Management\Projects_Management\Core\bin\Debug\net5.0\Utility.pdb
+D:\Projects\Projects_Management\Projects_Management\Core\obj\Debug\net5.0\Core.csproj.CopyComplete

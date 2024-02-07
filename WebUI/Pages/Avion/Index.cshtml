@@ -1,0 +1,88 @@
+﻿@page
+@model WebUI.Pages.Avion.IndexModel
+@{
+}
+@section cssLinksTop {
+    <link href="~/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+    <div class="post d-flex flex-column-fluid">
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row g-5 g-xxl-8">
+                <div class="d-flex flex-column-fluid">
+                    <!--begin::Container-->
+                    <div class="col-md-12">
+                        <div class="card card-custom">
+
+                            <listaction Nameliste="Liste des Passageres du Vol numero @(Model.volId) Montant a payée : @Model.avionDm.Montant">Vol : @Model.volId</listaction>
+
+
+                            <div class="card-body">
+                                <!--begin: Search Form-->
+                                <div class="mb-7">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-9 col-xl-8">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4 my-2 my-md-0">
+                                                    <div class="input-icon">
+                                                        <input type="text" class="form-control"
+                                                               placeholder="Search"
+                                                               id="search_datatable" />
+                                                        <span>
+                                                            <i class="flaticon2-search-1 text-muted"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end::Search Form-->
+                                <!--begin: Datatable-->
+                                <form method="post">
+                                    <table class="table table-checkable basic_datatable">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-left">numero</th>
+                                                <th class="text-left">siège 1</th>
+                                                <th class="text-left">siège 2</th>
+                                                <th class="text-left">siège 3</th>
+                                                <th class="text-left">siège 4 </th>
+                                                <th class="text-left">siège 5</th>
+                                                <th class="text-left">siège 6</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @for (int i = 0; i < 34; i++)
+                                            {
+                                                <tr>
+                                                    <td>@i</td>
+                                                    @for (int j = 0; j < 6; j++)
+                                                    {
+                                                        <td>@Model.avion[i, j]</td>
+                                                    }
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </form>
+                                <!--end: Datatable-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end::Container-->
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+    </div>
+</div>
+<modal-edit></modal-edit>
+@section linkScripts {
+    <script src="~/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="~/js/BaseConfigDatatable.js"></script>
+    <script src="~/js/layoutModal.js"></script>
+}

@@ -1,0 +1,24 @@
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\bin\Debug\net8.0\TagHelpers.deps.json
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\bin\Debug\net8.0\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\bin\Debug\net8.0\TagHelpers.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.csproj.AssemblyReference.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.AssemblyInfoInputs.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.AssemblyInfo.cs
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.csproj.CoreCompileInputs.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\refint\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\TagHelpers.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\TagHelpers\obj\Debug\net8.0\ref\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\bin\Debug\net8.0\TagHelpers.deps.json
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\bin\Debug\net8.0\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\bin\Debug\net8.0\TagHelpers.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.csproj.AssemblyReference.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.AssemblyInfoInputs.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.AssemblyInfo.cs
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.csproj.CoreCompileInputs.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\refint\TagHelpers.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\TagHelpers.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\TagHelpers\obj\Debug\net8.0\ref\TagHelpers.dll

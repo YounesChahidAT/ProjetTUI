@@ -1,0 +1,24 @@
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\bin\Debug\net8.0\Utility.deps.json
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\bin\Debug\net8.0\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\bin\Debug\net8.0\Utility.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.csproj.AssemblyReference.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.AssemblyInfoInputs.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.AssemblyInfo.cs
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.csproj.CoreCompileInputs.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\refint\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\Utility.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Utility\obj\Debug\net8.0\ref\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\bin\Debug\net8.0\Utility.deps.json
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\bin\Debug\net8.0\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\bin\Debug\net8.0\Utility.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.csproj.AssemblyReference.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.AssemblyInfoInputs.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.AssemblyInfo.cs
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.csproj.CoreCompileInputs.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\refint\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\Utility.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Utility\obj\Debug\net8.0\ref\Utility.dll

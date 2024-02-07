@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebUI
+build_property.RootNamespace = WebUI
+build_property.ProjectDir = C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\WebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Avion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/BasePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Famille/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Passagere/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzc2FnZXJlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Passagere/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzc2FnZXJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Shared/_Alert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BbGVydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Shared/_AsideLeftMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Bc2lkZUxlZnRNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Shared/_TopNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ub3BOYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Vols/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm9sc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Vols/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm9sc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/atYounes CHAHID/Desktop/Nouveau Projet-TUI/Projet-TUI/WebUI/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l9yroajyng

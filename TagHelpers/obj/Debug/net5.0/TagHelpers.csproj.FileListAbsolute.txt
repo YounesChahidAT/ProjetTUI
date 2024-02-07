@@ -1,0 +1,12 @@
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\bin\Debug\net5.0\TagHelpers.deps.json
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\bin\Debug\net5.0\TagHelpers.dll
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\bin\Debug\net5.0\ref\TagHelpers.dll
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\bin\Debug\net5.0\TagHelpers.pdb
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.AssemblyInfoInputs.cache
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.AssemblyInfo.cs
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.csproj.CoreCompileInputs.cache
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.dll
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\ref\TagHelpers.dll
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.pdb
+D:\Projects\Projects_Management\Projects_Management\TagHelpers\obj\Debug\net5.0\TagHelpers.csprojAssemblyReference.cache

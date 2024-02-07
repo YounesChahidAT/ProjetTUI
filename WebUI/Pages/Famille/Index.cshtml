@@ -1,0 +1,89 @@
+﻿@page
+@model WebUI.Pages.Famille.IndexModel
+@{
+}
+@section cssLinksTop {
+    <link href="~/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+    <div class="post d-flex flex-column-fluid">
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row g-5 g-xxl-8">
+                <div class="d-flex flex-column-fluid">
+                    <!--begin::Container-->
+                    <div class="col-md-12">
+                        <div class="card card-custom">
+
+                            <listaction Nameliste="Liste des Famille @(Model._familleId) Montant a payée : @Model.familleDm.Montant" new="@(Model.nombreFamille < 5 ? true: false)" url-new="/Passagere/Edit?id=0&VolId=@(Model._volId)&PassagereId=@(Model.passagereId)&FamilleId=@(Model._familleId)">Famille : @Model._familleId</listaction>
+
+
+                            <div class="card-body">
+                                <!--begin: Search Form-->
+                                <div class="mb-7">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-9 col-xl-8">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4 my-2 my-md-0">
+                                                    <div class="input-icon">
+                                                        <input type="text" class="form-control"
+                                                               placeholder="Search"
+                                                               id="search_datatable" />
+                                                        <span>
+                                                            <i class="flaticon2-search-1 text-muted"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end::Search Form-->
+                                <!--begin: Datatable-->
+                                <form method="post">
+                                    <table class="table table-checkable basic_datatable">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-left">Id</th>
+                                                <th class="text-left">Nom</th>
+                                                <th class="text-left">Age</th>
+                                                <th class="text-left">Type </th>
+                                                <th class="text-left">Double Places</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.passagereVM)
+                                            {
+                                                <tr>
+                                                    <td>@item.Id</td>
+                                                    <td>@item.Nom</td>
+                                                    <td>@item.Age</td>
+                                                    <td>@item.Type.DisplayName()</td>
+                                                    <td>@(item.DoublePlaces ? "Oui" : "Non")</td>
+
+                                                    <buttonlist lien="/Passagere/Edit" idobject="@item.Id"></buttonlist>
+
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </form>
+                                <!--end: Datatable-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end::Container-->
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+    </div>
+</div>
+<modal-edit></modal-edit>
+@section linkScripts {
+    <script src="~/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="~/js/BaseConfigDatatable.js"></script>
+    <script src="~/js/layoutModal.js"></script>
+}

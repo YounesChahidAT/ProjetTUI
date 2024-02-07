@@ -1,0 +1,20 @@
+﻿@using Newtonsoft.Json
+@using ViewModels
+@{ 
+    var sessionAlerts = TempData.ContainsKey("TempAlertData") ? TempData["TempAlertData"].ToString() : string.Empty;
+
+    List<AlertModel> alerts = new List<AlertModel>();
+
+    if (!string.IsNullOrEmpty(sessionAlerts))
+    {
+        alerts = JsonConvert.DeserializeObject<List<AlertModel>>(sessionAlerts);
+    }
+
+    foreach (var item in alerts)
+    {
+        <div class="alert alert-@item.Type fade show" role="alert">
+            <h4 class="alert-heading">@item.Title</h4>
+            <span>@item.Message</span>
+        </div>
+    }
+}

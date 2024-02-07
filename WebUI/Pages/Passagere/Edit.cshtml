@@ -1,0 +1,107 @@
+﻿@page
+@model WebUI.Pages.Passagere.EditModel
+@{
+}
+
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+    <div class="post d-flex flex-column-fluid">
+        <div class="container-fluid">
+
+            <div class="py-5">
+                <div class="rounded border p-10 card ">
+                    <div class="tab-pane fade show active" id="kt_tab_pane_1" role="tabpanel">
+                        <!--begin::Row-->
+                        <div class="row g-5 g-xxl-8">
+                            <div class="d-flex flex-column-fluid">
+                                <!--begin::Container-->
+                                <div class="col-md-7 card card-custom">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Nouveau Passagere</h3>
+                                    </div>
+                                    <form class="form" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" asp-for="passagereVM.Id" />
+                                        <input type="hidden" asp-for="passagereVM.Type" />
+                                        <input type="hidden" asp-for="passagereVM.FamilleId" />
+                                        <input type="hidden" asp-for="passagereVM.VolId" />
+                                        <input type="hidden" asp-for="countFamilleA" />
+                                        <input type="hidden" asp-for="countFamilleE" />
+                                        <div class="card-body">
+
+                                            <div class="form-group mb-5">
+                                                <label class="form-label" asp-for="passagereVM.Nom"></label>
+                                                <input type="text" asp-for="passagereVM.Nom" class="form-control" />
+                                                <span class="form-text text-danger" asp-validation-for="passagereVM.Nom"></span>
+                                            </div>
+
+                                            <div class="form-group mb-5">
+                                                <label class="form-label" asp-for="passagereVM.Age"></label>
+                                                @{
+                                                    if (Model.passagereVM.FamilleId == "-")
+                                                    {
+                                                        <input type="number" min="13" id="ageInput" asp-for="passagereVM.Age" class="form-control" />
+
+                                                    }
+                                                    else
+                                                    {
+                                                        <input type="number" min="1" id="ageInput" asp-for="passagereVM.Age" class="form-control" />
+
+                                                    }
+                                                }
+
+                                               @*  @( ? "" : "min=0") *@ 
+                                                <span class="form-text text-danger" asp-validation-for="passagereVM.Age"></span>
+                                            </div>
+
+                                            <div class="form-group mb-5" id="textToHide">
+                                                <label class="form-label" asp-for="passagereVM.DoublePlaces"></label>
+                                                <input type="checkbox" asp-for="passagereVM.DoublePlaces" class="form-check-input" />
+                                                <span class="form-text text-danger" asp-validation-for="passagereVM.DoublePlaces"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-footer text-right">
+                                            <button type="button" class="btn btn-secondary" onclick="javascript : window.history.back();">Retour à la liste</button>
+                                            <button type="submit" class="btn btn-primary mr-2">Enregistrer</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Row-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section linkScripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Appel initial pour traiter la valeur de l'âge au chargement de la page
+            updateVisibility();
+
+            // Écouteur d'événement pour le changement de la valeur de l'input
+            $('#ageInput').change(function () {
+                updateVisibility();
+            });
+
+            // Fonction pour mettre à jour la visibilité en fonction de l'âge
+            function updateVisibility() {
+                var age = parseInt($('#ageInput').val());
+                if (age <= 12) {
+                    $('#textToHide').hide();
+                } else {
+                    $('#textToHide').show();
+                }
+            }
+        });
+    </script>
+}
+
+

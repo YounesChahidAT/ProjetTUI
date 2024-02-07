@@ -1,0 +1,540 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Projet-TUI.Infrastructure.Tests\\Projet-TUI.Infrastructure.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\atYounes CHAHID\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atYounes CHAHID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\atYounes CHAHID\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atYounes CHAHID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Projet-TUI.Infrastructure.Tests\\Projet-TUI.Infrastructure.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Projet-TUI.Infrastructure.Tests\\Projet-TUI.Infrastructure.Tests.csproj",
+        "projectName": "Projet-TUI.Infrastructure.Tests",
+        "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Projet-TUI.Infrastructure.Tests\\Projet-TUI.Infrastructure.Tests.csproj",
+        "packagesPath": "C:\\Users\\atYounes CHAHID\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Projet-TUI.Infrastructure.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atYounes CHAHID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj"
+              },
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj"
+              },
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\WebUI\\WebUI.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\WebUI\\WebUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.abstractions": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\TagHelpers\\TagHelpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\TagHelpers\\TagHelpers.csproj",
+        "projectName": "TagHelpers",
+        "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\TagHelpers\\TagHelpers.csproj",
+        "packagesPath": "C:\\Users\\atYounes CHAHID\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\TagHelpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atYounes CHAHID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\atYounes CHAHID\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atYounes CHAHID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\WebUI\\WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\WebUI\\WebUI.csproj",
+        "projectName": "WebUI",
+        "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\WebUI\\WebUI.csproj",
+        "packagesPath": "C:\\Users\\atYounes CHAHID\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atYounes CHAHID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Core\\Core.csproj"
+              },
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\TagHelpers\\TagHelpers.csproj": {
+                "projectPath": "C:\\Users\\atYounes CHAHID\\Desktop\\Nouveau Projet-TUI\\Projet-TUI\\TagHelpers\\TagHelpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

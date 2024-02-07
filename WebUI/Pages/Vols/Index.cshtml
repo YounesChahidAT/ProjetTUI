@@ -1,0 +1,108 @@
+﻿@page
+@model WebUI.Pages.Vol.IndexModel
+@{
+}
+@section cssLinksTop {
+    <link href="~/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+    <div class="post d-flex flex-column-fluid">
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row g-5 g-xxl-8">
+                <div class="d-flex flex-column-fluid">
+                    <!--begin::Container-->
+                    <div class="col-md-12">
+                        <div class="card card-custom">
+
+                            <listaction Nameliste="Liste des Vols" new="true" url-new="/Vols/Edit"></listaction>
+                            <div class="card-body">
+                                <!--begin: Search Form-->
+                                <div class="mb-7">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-9 col-xl-8">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4 my-2 my-md-0">
+                                                    <div class="input-icon">
+                                                        <input type="text" class="form-control"
+                                                               placeholder="Search"
+                                                               id="search_datatable" />
+                                                        <span>
+                                                            <i class="flaticon2-search-1 text-muted"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end::Search Form-->
+                                <!--begin: Datatable-->
+                                <form method="post">
+                                    <table class="table table-checkable basic_datatable">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-left">Description</th>
+                                                <th class="text-left">Pilote</th>
+                                                <th class="text-left">Numero avion</th>
+                                                <th class="text-left">Passgere</th>
+                                                <th class="text-left">Sieges</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model.volVM)
+                                            {
+                                                <tr>
+                                                    <td>@item.Description</td>
+                                                    <td>@item.Pilote</td>
+                                                    <td>@item.NumAvion</td>
+                                                    <td>
+                                                        <a href="/Passagere/index?id=@item.Id" class="btn btn-primary btn-sm btn-clean btn-icon mr-2" title="Ajouter des Passageres">
+                                                            <span class="svg-icon svg-icon-white svg-icon-2x">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                                        <rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"></rect>        <rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"></rect>
+                                                                    </g>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Avion/index?volid=@item.Id" class="btn btn-primary btn-sm btn-clean btn-icon mr-2" title="Ajouter des Passageres">
+                                                            <span class="svg-icon svg-icon-white svg-icon-2x">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                                        <rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"></rect>        <rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"></rect>
+                                                                    </g>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </td>
+
+                                                    <buttonlist lien="/Vols/Edit" idobject="@item.Id"></buttonlist>
+
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </form>
+                                <!--end: Datatable-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end::Container-->
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+    </div>
+</div>
+<modal-edit></modal-edit>
+
+@section linkScripts {
+    <script src="~/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="~/js/BaseConfigDatatable.js"></script>
+    <script src="~/js/layoutModal.js"></script>
+}

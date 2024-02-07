@@ -1,0 +1,30 @@
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\bin\Debug\net8.0\Core.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\bin\Debug\net8.0\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\bin\Debug\net8.0\Utility.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.csproj.CopyComplete
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\atYounes CHAHID\Desktop\ProjetTUI\ProjetTUI\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\bin\Debug\net8.0\Core.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\bin\Debug\net8.0\Utility.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\bin\Debug\net8.0\Utility.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.csproj.CopyComplete
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\atYounes CHAHID\Desktop\Nouveau Projet-TUI\Projet-TUI\Core\obj\Debug\net8.0\ref\Core.dll
